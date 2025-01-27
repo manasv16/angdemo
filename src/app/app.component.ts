@@ -19,7 +19,7 @@ export class AppComponent implements AfterViewInit {
   displayedColumns: string[] = [ 'name', 'email', 'mobile', 'actions'];
   dataSource = new MatTableDataSource<any>();
 
-  title = 'dashboard-template';
+  title = 'dashboar-template';
   icon!: string;
   titles!: string;
   value!: number;
